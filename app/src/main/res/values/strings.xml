@@ -39,4 +39,34 @@
     <string name="password_updated_success_message">You Password Has Been Updated!</string>
     <string name="via_mail">Via Mail</string>
     <string name="PrincipalSignUp">Principal Sign UP</string>
+    <string name="professor">Professor</string>
+    <string name="hod">HOD</string>
+    <string name="student">Student</string>
+    <string name="select_branch">Select Branch</string>
+    <string name="select_passout">Select Pass Out Year (if Student)</string>
+    <array name="branch">
+        <item>Computer Engineering</item>
+        <item>IT Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Electronics And Communication Engineering</item>
+        <item>Power Electronics</item>
+        <item>Computer Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Instrumentation And Control Engineering</item>
+        <item>Electrical Engineering</item>
+    </array>
+    <array name="Year">
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </array>
 </resources>
