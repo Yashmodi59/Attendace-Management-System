@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:padding="30dp"
+    tools:context=".loginsignup.FirstScreenActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/first_icon"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/splashtext1"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:textColor="@color/textcolor"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/bungee"
+            android:layout_marginTop="20dp"
+            android:text="E-Attendance App"
+            />
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/start_login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:transitionName="transition_login"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-black"
+                android:onClick="callLoginScreen"
+                android:text="@string/login"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/start_signup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/Signup"
+                android:transitionName="transition_SignUp"
+                android:onClick="callSignUpScreen"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/SignUpPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/PrincipalSignUp"
+            android:transitionName="transition_SignUp"
+            android:textColor="@color/colorPrimary" />
+        <Button
+            android:id="@+id/start_work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/how"
+            android:transitionName="transition_SignUp"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+</ScrollView>
