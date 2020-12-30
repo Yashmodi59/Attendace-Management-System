@@ -18,19 +18,19 @@
             android:layout_height="300dp"
             android:id="@+id/first_icon"
             android:src="@drawable/logo"/>
+
         <TextView
+            android:id="@+id/splashtext1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/splashtext1"
-            android:textSize="25dp"
-            android:textStyle="italic"
-            android:textColor="@color/textcolor"
-            android:textAlignment="center"
             android:layout_gravity="center_horizontal"
-            android:fontFamily="@font/bungee"
             android:layout_marginTop="20dp"
+            android:fontFamily="@font/bungee"
             android:text="E-Attendance App"
-            />
+            android:textAlignment="center"
+            android:textColor="@color/textcolor"
+            android:textSize="25dp"
+            android:textStyle="italic" />
         <LinearLayout
             android:layout_marginTop="50dp"
             android:layout_width="match_parent"
